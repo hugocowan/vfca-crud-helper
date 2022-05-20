@@ -6,7 +6,9 @@ export const createItems = async (fileName, item) => {
     return await readFile(fileName)
 }
 
-export const readItems = (fileName, index) => {}
+export const readItems = async (fileName) => {
+    return await readFile(fileName)
+}
 
 export const updateItems = (fileName, targetItem, newItem) => {}
 
